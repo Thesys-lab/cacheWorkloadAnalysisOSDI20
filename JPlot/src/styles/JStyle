@@ -1,0 +1,52 @@
+
+
+# JStyle is adapted from fivethirtyeight
+
+
+lines.linewidth: 2
+lines.markersize : 8
+lines.solid_capstyle: butt
+
+xtick.labelsize : 16
+ytick.labelsize : 16
+
+
+
+legend.fancybox: false
+
+axes.prop_cycle: cycler('color', ['008fd5', 'fc4f30', 'e5ae38', '6d904f', '8b8b8b', '810f7c', ])
+
+axes.labelsize: large
+axes.axisbelow: true
+# axes.grid: true
+# axes.edgecolor: f0f0f0
+# axes.linewidth: 3.0
+axes.titlesize: x-large
+
+# axes.xmargin        : .05  ## x margin.  See `axes.Axes.margins`
+# axes.ymargin        : .05  ## y margin See `axes.Axes.margins`
+
+
+# patch.edgecolor: f0f0f0
+# patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: --
+grid.linewidth: 0.5
+grid.color: cbcbcb
+
+# xtick.major.size: 0
+# xtick.minor.size: 0
+# ytick.major.size: 0
+# ytick.minor.size: 0
+
+font.size:12.0
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+figure.facecolor: f0f0f0
+
+figure.figsize   : 6.4, 4.8
+figure.dpi : 600

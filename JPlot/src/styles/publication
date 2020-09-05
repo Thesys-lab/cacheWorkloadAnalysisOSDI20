@@ -1,0 +1,29 @@
+
+
+axes.titlesize : 24
+axes.labelsize : 20
+lines.linewidth : 3
+xtick.labelsize : 16
+ytick.labelsize : 16
+
+legend.fontsize: 18
+legend.handlelength : 2
+legend.borderpad: 0.4
+legend.handletextpad: 0.4
+legend.columnspacing: 0.8
+legend.borderaxespad: 0.4
+legend.frameon: False
+
+
+font.size:18.0
+
+# axes.facecolor: f0f0f0
+
+
+#savefig.edgecolor: f0f0f0
+#savefig.facecolor: f0f0f0
+savefig.format : pdf
+
+
+figure.figsize   : 6.4, 4.8
+figure.dpi : 300

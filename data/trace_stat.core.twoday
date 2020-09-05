@@ -1,0 +1,1134 @@
+dat: /user/junchengy/twemLogFull/bin/twoDay/ads_merged_counting_features_cache.sbin
+number of requests: 619987051
+number of uniq obj/blocks: 52582
+cold miss ratio: 0.0001
+top N popular (obj, num of requests): 
+[(510, 3828238),
+ (249, 2661603),
+ (110, 2452220),
+ (66, 2334507),
+ (386, 2279063),
+ (50957, 2101463),
+ (61, 1790086),
+ (68, 1698482)]
+number of obj/block accessed only once: 11 (0.0002)
+weighted_by_req: obj_size_mean 412, req_size_mean 412, key_size_mean 58, value_size_mean 354
+weighted_by_obj: obj_size_mean 362, req_size_mean 362, key_size_mean 78, value_size_mean 284
+frequency mean: 11790.86
+time span: 46812 (0.54 day)
+op: get:0.9946, add:0.0041, gets:0.0008, cas:0.0005
+ttl: 4 ttls used, 240s:0.9998
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/ads_ranking_feature_store_cache.sbin
+number of requests: 2098750994
+number of uniq obj/blocks: 2245763
+cold miss ratio: 0.0011
+top N popular (obj, num of requests): 
+[(6540, 638266),
+ (14779, 632085),
+ (4803, 631307),
+ (2290, 625779),
+ (3926, 621588),
+ (6117, 620337),
+ (17911, 618041),
+ (14196, 616858)]
+number of obj/block accessed only once: 214 (0.0001)
+weighted_by_req: obj_size_mean 132, req_size_mean 132, key_size_mean 22, value_size_mean 110
+weighted_by_obj: obj_size_mean 89, req_size_mean 89, key_size_mean 21, value_size_mean 68
+frequency mean: 934.54
+time span: 172799 (2.00 day)
+op: get:0.9976, add:0.0016, gets:0.0008, cas:0.0000
+ttl: 7 ttls used, 4d:0.5868, 2d:0.4084
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/ancestor_store_cache.sbin
+number of requests: 305057283
+number of uniq obj/blocks: 3071857
+cold miss ratio: 0.0101
+top N popular (obj, num of requests): 
+[(2640258, 1857924),
+ (3065153, 1398690),
+ (957813, 1180200),
+ (1805013, 1026060),
+ (1472885, 928094),
+ (2185049, 892941),
+ (1878022, 877052),
+ (1210592, 844995)]
+number of obj/block accessed only once: 400897 (0.1305)
+weighted_by_req: obj_size_mean 146, req_size_mean 146, key_size_mean 19, value_size_mean 127
+weighted_by_obj: obj_size_mean 139, req_size_mean 139, key_size_mean 19, value_size_mean 120
+frequency mean: 99.31
+time span: 232631 (2.69 day)
+op: get:0.9931, add:0.0067, gets:0.0001, cas:0.0001
+ttl: 1 ttls used, 7d:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/blender_adaptive_cache.sbin
+number of requests: 278180896
+number of uniq obj/blocks: 14344252
+cold miss ratio: 0.0516
+top N popular (obj, num of requests): 
+[(161, 1104110),
+ (4938, 870056),
+ (10088651, 814249),
+ (18975153, 807485),
+ (13814392, 708064),
+ (12007096, 653189),
+ (11958183, 648877),
+ (12095863, 625924)]
+number of obj/block accessed only once: 4725790 (0.3295)
+weighted_by_req: obj_size_mean 792, req_size_mean 792, key_size_mean 38, value_size_mean 754
+weighted_by_obj: obj_size_mean 2507, req_size_mean 2507, key_size_mean 67, value_size_mean 2439
+frequency mean: 19.39
+time span: 65523 (0.76 day)
+op: set:0.0718, get:0.9282
+ttl: 9 ttls used, 60s:0.3803, 300s:0.2628, 1h:0.1196, 600s:0.1185, 4h:0.0864, 1d:0.0264
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/botmaker_2_cache.sbin
+number of requests: 2553270050
+number of uniq obj/blocks: 525557364
+cold miss ratio: 0.2058
+top N popular (obj, num of requests): 
+[(19, 12779784),
+ (182, 10765855),
+ (131, 2118176),
+ (153, 1560287),
+ (635152010, 1319446),
+ (395855643, 1305255),
+ (2440, 1168323),
+ (246, 1001928)]
+number of obj/block accessed only once: 312229 (0.0006)
+weighted_by_req: obj_size_mean 82, req_size_mean 82, key_size_mean 28, value_size_mean 53
+weighted_by_obj: obj_size_mean 88, req_size_mean 88, key_size_mean 59, value_size_mean 29
+frequency mean: 4.86
+time span: 147656 (1.71 day)
+op: get:0.5773, set:0.4226, delete:0.0001
+ttl: 18 ttls used, 5s:0.9328, 300s:0.0176, 10s:0.0167, 60s:0.0127
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/content_recommender_cache.sbin
+number of requests: 2178137656
+number of uniq obj/blocks: 6654163
+cold miss ratio: 0.0031
+top N popular (obj, num of requests): 
+[(375, 386485),
+ (2394, 383594),
+ (3189, 378625),
+ (3234, 377513),
+ (122, 376598),
+ (1606, 373693),
+ (822, 372522),
+ (306, 372494)]
+number of obj/block accessed only once: 41862 (0.0063)
+weighted_by_req: obj_size_mean 1469, req_size_mean 1469, key_size_mean 48, value_size_mean 1421
+weighted_by_obj: obj_size_mean 296, req_size_mean 296, key_size_mean 44, value_size_mean 252
+frequency mean: 327.33
+time span: 172800 (2.00 day)
+op: get:0.9759, set:0.0241
+ttl: 151 ttls used, 520s:0.0332, 510s:0.0317, 490s:0.0309, 590s:0.0264, 540s:0.0261, 550s:0.0261, 570s:0.0206, 500s:0.0203, 580s:0.0200, 596s:0.0170
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/content_recommender_core_svcs_cache.sbin
+number of requests: 279494700
+number of uniq obj/blocks: 3834328
+cold miss ratio: 0.0137
+top N popular (obj, num of requests): 
+[(207, 749614),
+ (137, 712708),
+ (158, 703147),
+ (183, 673773),
+ (150, 654668),
+ (470, 643295),
+ (119, 551309),
+ (1095, 546593)]
+number of obj/block accessed only once: 287 (0.0001)
+weighted_by_req: obj_size_mean 1979, req_size_mean 1979, key_size_mean 14, value_size_mean 1966
+weighted_by_obj: obj_size_mean 1953, req_size_mean 1953, key_size_mean 17, value_size_mean 1936
+frequency mean: 72.89
+time span: 172800 (2.00 day)
+op: get:0.8185, set:0.1815
+ttl: 30 ttls used, 1.8h:0.2807, 1.7h:0.2424, 1.9h:0.2272, 1.6h:0.1303, 2h:0.1194
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/control_tower_probe_cache.sbin
+number of requests: 363905567
+number of uniq obj/blocks: 237448
+cold miss ratio: 0.0007
+top N popular (obj, num of requests): 
+[(11982, 18894),
+ (12835, 18572),
+ (8721, 17574),
+ (28528, 17565),
+ (19297, 17149),
+ (21005, 16934),
+ (11936, 16920),
+ (20315, 16686)]
+number of obj/block accessed only once: 806 (0.0034)
+weighted_by_req: obj_size_mean 17667, req_size_mean 17667, key_size_mean 23, value_size_mean 17644
+weighted_by_obj: obj_size_mean 9520, req_size_mean 9520, key_size_mean 23, value_size_mean 9497
+frequency mean: 1532.57
+time span: 172800 (2.00 day)
+op: set:0.4996, get:0.5004
+ttl: 17 ttls used, 1380s:0.9541, 1379s:0.0458
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/conversation_timeline_metadata_cache.sbin
+number of requests: 3252961687
+number of uniq obj/blocks: 7011923
+cold miss ratio: 0.0022
+top N popular (obj, num of requests): 
+[(87339, 20184922),
+ (1228, 11507941),
+ (1644, 11189318),
+ (12587, 8421382),
+ (30559, 8352211),
+ (6853151, 8179007),
+ (621121, 8156681),
+ (2685539, 6110795)]
+number of obj/block accessed only once: 595870 (0.0850)
+weighted_by_req: obj_size_mean 90, req_size_mean 90, key_size_mean 30, value_size_mean 60
+weighted_by_obj: obj_size_mean 71, req_size_mean 71, key_size_mean 32, value_size_mean 39
+frequency mean: 463.92
+time span: 172800 (2.00 day)
+op: get:0.9910, add:0.0070, set:0.0010, gets:0.0007, cas:0.0004, delete:0.0000
+ttl: 11 ttls used, 2h:0.7874, 1.4h:0.0226, 1.1h:0.0226, 1.9h:0.0225, 1.6h:0.0225, 1.2h:0.0224, 1.8h:0.0224, 1.5h:0.0222, 1.7h:0.0222, 1.3h:0.0222
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/cuad_deepmoji_cache.sbin
+number of requests: 37878126
+number of uniq obj/blocks: 18936233
+cold miss ratio: 0.4999
+top N popular (obj, num of requests): 
+[(31909201, 7),
+ (13370674, 6),
+ (13583676, 6),
+ (13656563, 6),
+ (14339994, 6),
+ (14418127, 6),
+ (14717643, 6),
+ (15749459, 6)]
+number of obj/block accessed only once: 15765 (0.0008)
+weighted_by_req: obj_size_mean 1279, req_size_mean 1279, key_size_mean 11, value_size_mean 1268
+weighted_by_obj: obj_size_mean 2355, req_size_mean 2355, key_size_mean 22, value_size_mean 2333
+frequency mean: 2.00
+time span: 172800 (2.00 day)
+op: add:0.4997, get:0.5003, gets:0.0000
+ttl: 1 ttls used, 2h:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/devices_cache.sbin
+number of requests: 718783980
+number of uniq obj/blocks: 15726574
+cold miss ratio: 0.0219
+top N popular (obj, num of requests): 
+[(19774, 552112),
+ (7369, 537882),
+ (218, 508338),
+ (14481, 507862),
+ (4396, 503347),
+ (1844, 369701),
+ (1336, 361105),
+ (2843, 342388)]
+number of obj/block accessed only once: 972213 (0.0618)
+weighted_by_req: obj_size_mean 400, req_size_mean 400, key_size_mean 24, value_size_mean 376
+weighted_by_obj: obj_size_mean 194, req_size_mean 194, key_size_mean 24, value_size_mean 170
+frequency mean: 45.71
+time span: 172800 (2.00 day)
+op: get:0.9573, add:0.0168, gets:0.0129, cas:0.0129, set:0.0002
+ttl: 3 ttls used, 5d:0.9718, 20s:0.0282
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/exchange_auctioncache_cache.sbin
+number of requests: 753085128
+number of uniq obj/blocks: 598318995
+cold miss ratio: 0.7945
+top N popular (obj, num of requests): 
+[(677754751, 7267),
+ (633723854, 2388),
+ (607015, 2037),
+ (417230829, 1496),
+ (193396415, 1145),
+ (196924572, 911),
+ (525679793, 717),
+ (385614708, 664)]
+number of obj/block accessed only once: 487191494 (0.8143)
+weighted_by_req: obj_size_mean 1207, req_size_mean 1207, key_size_mean 44, value_size_mean 1163
+weighted_by_obj: obj_size_mean 1074, req_size_mean 1074, key_size_mean 44, value_size_mean 1030
+frequency mean: 1.26
+time span: 172800 (2.00 day)
+op: set:0.8035, get:0.1965
+ttl: 4 ttls used, 300s:0.9785, 299s:0.0215
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/exchange_mpx_auction_cache.sbin
+number of requests: 232158840
+number of uniq obj/blocks: 144828619
+cold miss ratio: 0.6238
+top N popular (obj, num of requests): 
+[(95976025, 602),
+ (79300052, 382),
+ (115214807, 199),
+ (27065956, 160),
+ (36263131, 157),
+ (207861296, 146),
+ (27883274, 118),
+ (202503483, 112)]
+number of obj/block accessed only once: 93255080 (0.6439)
+weighted_by_req: obj_size_mean 3730, req_size_mean 3730, key_size_mean 36, value_size_mean 3694
+weighted_by_obj: obj_size_mean 4310, req_size_mean 4310, key_size_mean 44, value_size_mean 4266
+frequency mean: 1.60
+time span: 172800 (2.00 day)
+op: get:0.3757, set:0.6243
+ttl: 4 ttls used, 300s:0.9748, 299s:0.0252
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/expandodo_cache.sbin
+number of requests: 1003760387
+number of uniq obj/blocks: 28330916
+cold miss ratio: 0.0282
+top N popular (obj, num of requests): 
+[(10362517, 14049352),
+ (16351089, 5637156),
+ (16764865, 5449050),
+ (19756692, 5013059),
+ (37, 4482796),
+ (13928170, 4372857),
+ (14996895, 4043746),
+ (25525250, 3965708)]
+number of obj/block accessed only once: 3100683 (0.1094)
+weighted_by_req: obj_size_mean 791, req_size_mean 791, key_size_mean 66, value_size_mean 725
+weighted_by_obj: obj_size_mean 510, req_size_mean 510, key_size_mean 96, value_size_mean 414
+frequency mean: 35.43
+time span: 172800 (2.00 day)
+op: get:0.6542, delete:0.2202, set:0.1256
+ttl: 3 ttls used, 1d:0.9993
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/geolocationservice_cache.sbin
+number of requests: 659200102
+number of uniq obj/blocks: 654071431
+cold miss ratio: 0.9922
+top N popular (obj, num of requests): 
+[(937042934, 863),
+ (955098458, 452),
+ (955097853, 430),
+ (985230608, 279),
+ (949367060, 179),
+ (795042113, 167),
+ (911435203, 166),
+ (1152798948, 155)]
+number of obj/block accessed only once: 651257625 (0.9957)
+weighted_by_req: obj_size_mean 121, req_size_mean 121, key_size_mean 18, value_size_mean 102
+weighted_by_obj: obj_size_mean 121, req_size_mean 121, key_size_mean 18, value_size_mean 102
+frequency mean: 1.01
+time span: 73102 (0.85 day)
+op: set:0.9990, get:0.0010
+ttl: 3 ttls used, 30s:0.9999
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/geouser_cache.sbin
+number of requests: 3026526863
+number of uniq obj/blocks: 10926460
+cold miss ratio: 0.0036
+top N popular (obj, num of requests): 
+[(410, 3565104),
+ (3090, 3008955),
+ (881, 1390145),
+ (508, 1311406),
+ (37065, 1128303),
+ (617340, 1091017),
+ (1661, 1068034),
+ (2166665, 1065743)]
+number of obj/block accessed only once: 206825 (0.0189)
+weighted_by_req: obj_size_mean 114, req_size_mean 114, key_size_mean 16, value_size_mean 98
+weighted_by_obj: obj_size_mean 132, req_size_mean 132, key_size_mean 18, value_size_mean 115
+frequency mean: 276.99
+time span: 172800 (2.00 day)
+op: get:0.9319, set:0.0396, add:0.0135, gets:0.0075, cas:0.0075
+ttl: 3 ttls used, 1h:0.9949
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/gizmoduck_cache.sbin
+number of requests: 6532806342
+number of uniq obj/blocks: 5892487
+cold miss ratio: 0.0009
+top N popular (obj, num of requests): 
+[(158, 57912884),
+ (33, 50803614),
+ (72, 40006851),
+ (306, 36098120),
+ (101, 35798547),
+ (239, 35407508),
+ (3, 32891771),
+ (612, 32585012)]
+number of obj/block accessed only once: 1363632 (0.2314)
+weighted_by_req: obj_size_mean 575, req_size_mean 575, key_size_mean 14, value_size_mean 560
+weighted_by_obj: obj_size_mean 231, req_size_mean 231, key_size_mean 19, value_size_mean 212
+frequency mean: 1108.67
+time span: 172800 (2.00 day)
+op: get:0.9937, add:0.0016, gets:0.0016, set:0.0015, cas:0.0016
+ttl: 1 ttls used, 5d:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/gizmoduck_lru_cache.sbin
+number of requests: 4561697451
+number of uniq obj/blocks: 6906067
+cold miss ratio: 0.0015
+top N popular (obj, num of requests): 
+[(291, 65366393),
+ (13684, 53119749),
+ (81, 27577623),
+ (16, 19707951),
+ (301, 17331318),
+ (310, 14622754),
+ (882, 14496420),
+ (146, 14127242)]
+number of obj/block accessed only once: 49154 (0.0071)
+weighted_by_req: obj_size_mean 73, req_size_mean 73, key_size_mean 18, value_size_mean 55
+weighted_by_obj: obj_size_mean 55, req_size_mean 55, key_size_mean 18, value_size_mean 37
+frequency mean: 660.53
+time span: 172800 (2.00 day)
+op: get:0.9633, add:0.0123, gets:0.0124, cas:0.0120, delete:0.0000
+ttl: 5 ttls used, 12h:0.9961
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/graph_feature_service_cache.sbin
+number of requests: 571115975
+number of uniq obj/blocks: 121079814
+cold miss ratio: 0.2120
+top N popular (obj, num of requests): 
+[(2366, 57423),
+ (321, 13076),
+ (100734, 10583),
+ (16643177, 10008),
+ (3536, 9979),
+ (104982675, 9396),
+ (125559, 8761),
+ (720279, 8364)]
+number of obj/block accessed only once: 9036623 (0.0746)
+weighted_by_req: obj_size_mean 101, req_size_mean 101, key_size_mean 30, value_size_mean 72
+weighted_by_obj: obj_size_mean 143, req_size_mean 143, key_size_mean 42, value_size_mean 101
+frequency mean: 4.72
+time span: 172800 (2.00 day)
+op: get:0.7465, set:0.2535
+ttl: 17 ttls used, 7.5h:0.0760, 7.4h:0.0744, 6.6h:0.0737, 7.2h:0.0700, 6.7h:0.0698, 7h:0.0680, 7.1h:0.0665, 6.8h:0.0664, 6.9h:0.0650, 7.3h:0.0634
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/ibis_api_cache.sbin
+number of requests: 972358272
+number of uniq obj/blocks: 32742023
+cold miss ratio: 0.0337
+top N popular (obj, num of requests): 
+[(28738763, 55643733),
+ (560, 2952196),
+ (1146, 821960),
+ (1116, 805317),
+ (88, 790846),
+ (736717, 645505),
+ (2487, 613703),
+ (9488, 412574)]
+number of obj/block accessed only once: 20148965 (0.6154)
+weighted_by_req: obj_size_mean 74, req_size_mean 74, key_size_mean 24, value_size_mean 50
+weighted_by_obj: obj_size_mean 81, req_size_mean 81, key_size_mean 26, value_size_mean 55
+frequency mean: 29.70
+time span: 172800 (2.00 day)
+op: get:0.9608, add:0.0321, gets:0.0037, cas:0.0035, set:0.0000
+ttl: 3 ttls used, 5d:0.9936
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/ibis_dedup_cache.sbin
+number of requests: 377272021
+number of uniq obj/blocks: 358677587
+cold miss ratio: 0.9507
+top N popular (obj, num of requests): 
+[(26892, 12884),
+ (51858778, 9487),
+ (277838, 7418),
+ (269427, 6986),
+ (693123, 6596),
+ (110092713, 6355),
+ (110223560, 6172),
+ (190097993, 6078)]
+number of obj/block accessed only once: 354953533 (0.9896)
+weighted_by_req: obj_size_mean 26, req_size_mean 26, key_size_mean 25, value_size_mean 1
+weighted_by_obj: obj_size_mean 26, req_size_mean 26, key_size_mean 25, value_size_mean 1
+frequency mean: 1.05
+time span: 172800 (2.00 day)
+op: add:1.0000
+ttl: 16 ttls used, 2.2h:0.6229, 10s:0.2328, 900s:0.1417
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/limiter_feature_med_cache.sbin
+number of requests: 560713001
+number of uniq obj/blocks: 131379152
+cold miss ratio: 0.2343
+top N popular (obj, num of requests): 
+[(6436257, 1281063),
+ (62355945, 994453),
+ (16478917, 444165),
+ (59668481, 432306),
+ (66174566, 336165),
+ (1100, 176451),
+ (58725910, 137426),
+ (1063, 111832)]
+number of obj/block accessed only once: 54490404 (0.4148)
+weighted_by_req: obj_size_mean 27, req_size_mean 27, key_size_mean 22, value_size_mean 5
+weighted_by_obj: obj_size_mean 58, req_size_mean 58, key_size_mean 54, value_size_mean 4
+frequency mean: 4.27
+time span: 172800 (2.00 day)
+op: get:0.7238, incr:0.1776, set:0.0985, delete:0.0001
+ttl: 12 ttls used, 1d:0.8527, 1h:0.1082, 1800s:0.0305
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/livepipeline_cache.sbin
+number of requests: 1502262579
+number of uniq obj/blocks: 387910158
+cold miss ratio: 0.2582
+top N popular (obj, num of requests): 
+[(3, 115032002),
+ (6, 115015232),
+ (12, 114659704),
+ (14, 114236512),
+ (566472825, 8206373),
+ (567896381, 7699937),
+ (568074327, 7640330),
+ (406884375, 118983)]
+number of obj/block accessed only once: 4528120 (0.0117)
+weighted_by_req: obj_size_mean 156, req_size_mean 156, key_size_mean 35, value_size_mean 121
+weighted_by_obj: obj_size_mean 259, req_size_mean 259, key_size_mean 35, value_size_mean 224
+frequency mean: 3.87
+time span: 172800 (2.00 day)
+op: set:0.3084, get:0.3600, incr:0.3035, delete:0.0200, add:0.0081
+ttl: 18 ttls used, 120s:0.9279, 2700s:0.0455, 5s:0.0257
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/media_metadata_cache.sbin
+number of requests: 914635788
+number of uniq obj/blocks: 6783713
+cold miss ratio: 0.0074
+top N popular (obj, num of requests): 
+[(52, 12045979),
+ (41, 9360071),
+ (4853442, 6768688),
+ (84, 6731980),
+ (1917, 5982790),
+ (105, 5725276),
+ (3676452, 5259939),
+ (106, 5228386)]
+number of obj/block accessed only once: 383073 (0.0565)
+weighted_by_req: obj_size_mean 674, req_size_mean 674, key_size_mean 34, value_size_mean 640
+weighted_by_obj: obj_size_mean 731, req_size_mean 731, key_size_mean 32, value_size_mean 699
+frequency mean: 134.83
+time span: 172800 (2.00 day)
+op: get:0.9914, set:0.0086, delete:0.0000
+ttl: 2028 ttls used, 14d:0.7082, 60s:0.1946, 30d:0.0297, 1d:0.0177, 1h:0.0170
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/moments_api_cache.sbin
+number of requests: 3277850333
+number of uniq obj/blocks: 4945999
+cold miss ratio: 0.0015
+top N popular (obj, num of requests): 
+[(3, 853676097),
+ (4867429, 619349121),
+ (10, 323423797),
+ (5, 253974857),
+ (7, 140947097),
+ (16, 108283918),
+ (15, 108283575),
+ (48, 92201729)]
+number of obj/block accessed only once: 159156 (0.0322)
+weighted_by_req: obj_size_mean 75, req_size_mean 75, key_size_mean 30, value_size_mean 45
+weighted_by_obj: obj_size_mean 77, req_size_mean 77, key_size_mean 49, value_size_mean 28
+frequency mean: 662.73
+time span: 172800 (2.00 day)
+op: get:0.9528, add:0.0157, gets:0.0156, cas:0.0156, set:0.0002, decr:0.0000, incr:0.0000, delete:0.0000
+ttl: 12 ttls used, 30d:0.9926
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/observability_cache.sbin
+number of requests: 42424510
+number of uniq obj/blocks: 3274969
+cold miss ratio: 0.0772
+top N popular (obj, num of requests): 
+[(3, 127502),
+ (1168, 52397),
+ (5365177, 29702),
+ (6129203, 29700),
+ (5091497, 26287),
+ (6748428, 24698),
+ (5447585, 24674),
+ (2110608, 23385)]
+number of obj/block accessed only once: 3601 (0.0011)
+weighted_by_req: obj_size_mean 1064, req_size_mean 1064, key_size_mean 79, value_size_mean 985
+weighted_by_obj: obj_size_mean 1867, req_size_mean 1867, key_size_mean 122, value_size_mean 1745
+frequency mean: 12.95
+time span: 172800 (2.00 day)
+op: get:0.7051, set:0.2949
+ttl: 157 ttls used, 60s:0.6686, 120s:0.1015, 360s:0.0887, 600s:0.0621, 660s:0.0262, 180s:0.0238
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/onboarding_task_service_cache.sbin
+number of requests: 4241652688
+number of uniq obj/blocks: 471815135
+cold miss ratio: 0.1112
+top N popular (obj, num of requests): 
+[(217, 5722299),
+ (77099790, 1245378),
+ (324792224, 1101807),
+ (2338, 879428),
+ (11144, 616693),
+ (4154, 521047),
+ (21820, 516823),
+ (254, 441369)]
+number of obj/block accessed only once: 104777430 (0.2221)
+weighted_by_req: obj_size_mean 2, req_size_mean 2, key_size_mean 1, value_size_mean 0
+weighted_by_obj: obj_size_mean 74, req_size_mean 74, key_size_mean 66, value_size_mean 8
+frequency mean: 8.99
+time span: 172800 (2.00 day)
+op: get:0.8481, set:0.1519
+ttl: 3113 ttls used, 92.6d:0.2819, 1d:0.2527, 1h:0.1965, 4h:0.1772, 6h:0.0606, 12h:0.0224
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/passbird_cache.sbin
+number of requests: 1563128211
+number of uniq obj/blocks: 23601827
+cold miss ratio: 0.0151
+top N popular (obj, num of requests): 
+[(44, 4919192),
+ (361, 3206969),
+ (282, 2386181),
+ (409, 1471867),
+ (1705843, 978793),
+ (257, 971164),
+ (803, 955473),
+ (4629, 922195)]
+number of obj/block accessed only once: 6402153 (0.2713)
+weighted_by_req: obj_size_mean 235, req_size_mean 235, key_size_mean 57, value_size_mean 178
+weighted_by_obj: obj_size_mean 130, req_size_mean 130, key_size_mean 45, value_size_mean 85
+frequency mean: 66.23
+time span: 172800 (2.00 day)
+op: get:0.9126, set:0.0338, delete:0.0022, add:0.0328, gets:0.0094, cas:0.0093, decr:0.0000, incr:0.0000
+ttl: 6 ttls used, 3h:0.5648, 1.2d:0.4320
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/pinkfloyd_cache.sbin
+number of requests: 1854027565
+number of uniq obj/blocks: 82491214
+cold miss ratio: 0.0445
+top N popular (obj, num of requests): 
+[(721, 9464480),
+ (60952122, 9282395),
+ (89251136, 4090181),
+ (37329322, 2915539),
+ (5185838, 2649174),
+ (716474, 2453509),
+ (62978033, 2318027),
+ (28327023, 2209066)]
+number of obj/block accessed only once: 19008473 (0.2304)
+weighted_by_req: obj_size_mean 489, req_size_mean 489, key_size_mean 28, value_size_mean 460
+weighted_by_obj: obj_size_mean 835, req_size_mean 835, key_size_mean 36, value_size_mean 799
+frequency mean: 22.48
+time span: 172800 (2.00 day)
+op: get:0.8622, set:0.1328, delete:0.0050
+ttl: 3 ttls used, 1h:0.6675, 2h:0.3322
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/poptart_impressions_cache.sbin
+number of requests: 665898907
+number of uniq obj/blocks: 4312625
+cold miss ratio: 0.0065
+top N popular (obj, num of requests): 
+[(4791627, 5982456),
+ (4033158, 5197587),
+ (4621679, 4673723),
+ (4364189, 4331121),
+ (5737944, 4080232),
+ (4710739, 4033570),
+ (3668497, 3831039),
+ (4105452, 3217205)]
+number of obj/block accessed only once: 119502 (0.0277)
+weighted_by_req: obj_size_mean 387, req_size_mean 387, key_size_mean 23, value_size_mean 364
+weighted_by_obj: obj_size_mean 711, req_size_mean 711, key_size_mean 22, value_size_mean 689
+frequency mean: 154.41
+time span: 172800 (2.00 day)
+op: get:0.9882, add:0.0040, set:0.0078, gets:0.0000
+ttl: 25 ttls used, 12h:0.3551, 10.2h:0.0374, 11.8h:0.0370, 9.7h:0.0318, 10.6h:0.0312, 11.5h:0.0309, 11h:0.0295, 11.3h:0.0293, 11.7h:0.0290, 11.9h:0.0286
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/prediction_from_bidder_cache.sbin
+number of requests: 436242100
+number of uniq obj/blocks: 411775763
+cold miss ratio: 0.9439
+top N popular (obj, num of requests): 
+[(230218286, 2),
+ (230218289, 2),
+ (230218300, 2),
+ (230218302, 2),
+ (230218307, 2),
+ (230218308, 2),
+ (230218311, 2),
+ (230218329, 2)]
+number of obj/block accessed only once: 387309426 (0.9406)
+weighted_by_req: obj_size_mean 56, req_size_mean 56, key_size_mean 41, value_size_mean 15
+weighted_by_obj: obj_size_mean 56, req_size_mean 56, key_size_mean 41, value_size_mean 15
+frequency mean: 1.06
+time span: 172800 (2.00 day)
+op: set:0.9438, get:0.0562
+ttl: 4 ttls used, 60s:0.9998
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/prediction_from_ranking_cache.sbin
+number of requests: 25600003
+number of uniq obj/blocks: 24990048
+cold miss ratio: 0.9762
+top N popular (obj, num of requests): 
+[(690554222, 2),
+ (690554244, 2),
+ (690554252, 2),
+ (690554253, 2),
+ (690554279, 2),
+ (690554330, 2),
+ (690554332, 2),
+ (690554375, 2)]
+number of obj/block accessed only once: 24380093 (0.9756)
+weighted_by_req: obj_size_mean 179, req_size_mean 179, key_size_mean 41, value_size_mean 138
+weighted_by_obj: obj_size_mean 179, req_size_mean 179, key_size_mean 41, value_size_mean 138
+frequency mean: 1.02
+time span: 3483 (0.04 day)
+op: set:0.9761, get:0.0239
+ttl: 2 ttls used, 60s:0.9998
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/pushservice_core_svcs_cache.sbin
+number of requests: 1820076907
+number of uniq obj/blocks: 7150373
+cold miss ratio: 0.0039
+top N popular (obj, num of requests): 
+[(7041842, 27647393),
+ (9124355, 26727752),
+ (6425595, 24830132),
+ (6160274, 20346479),
+ (7758965, 15407730),
+ (1634, 14569340),
+ (5513616, 13456562),
+ (4282938, 12582324)]
+number of obj/block accessed only once: 70884 (0.0099)
+weighted_by_req: obj_size_mean 915, req_size_mean 915, key_size_mean 23, value_size_mean 891
+weighted_by_obj: obj_size_mean 1142, req_size_mean 1142, key_size_mean 24, value_size_mean 1118
+frequency mean: 254.54
+time span: 172800 (2.00 day)
+op: get:0.9879, set:0.0121
+ttl: 85 ttls used, 10.7h:0.0472, 11.2h:0.0459, 11.7h:0.0450, 11.6h:0.0447, 11.5h:0.0444, 10.9h:0.0438, 11.3h:0.0433, 10.6h:0.0427, 9.8h:0.0422, 11.1h:0.0421
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/pushservice_mh_cache.sbin
+number of requests: 587037611
+number of uniq obj/blocks: 11896578
+cold miss ratio: 0.0203
+top N popular (obj, num of requests): 
+[(987340, 7817115),
+ (9603114, 7695777),
+ (9463165, 6250176),
+ (265, 5694460),
+ (5, 5276535),
+ (8882, 5234266),
+ (176, 5105144),
+ (26074, 4583799)]
+number of obj/block accessed only once: 31501 (0.0026)
+weighted_by_req: obj_size_mean 198, req_size_mean 198, key_size_mean 25, value_size_mean 173
+weighted_by_obj: obj_size_mean 355, req_size_mean 355, key_size_mean 33, value_size_mean 322
+frequency mean: 49.35
+time span: 172800 (2.00 day)
+op: get:0.9361, set:0.0639
+ttl: 139 ttls used, 10.6h:0.0418, 10.5h:0.0400, 11.1h:0.0379, 9.8h:0.0378, 11.2h:0.0376, 10.7h:0.0367, 9.7h:0.0354, 10h:0.0350, 10.1h:0.0348, 10.4h:0.0347
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/ranking_user_data_fetch_cache.sbin
+number of requests: 529466398
+number of uniq obj/blocks: 35765099
+cold miss ratio: 0.0675
+top N popular (obj, num of requests): 
+[(22878215, 72),
+ (29051917, 71),
+ (45734562, 71),
+ (21129401, 70),
+ (23143302, 70),
+ (27235725, 70),
+ (36512039, 70),
+ (43151273, 70)]
+number of obj/block accessed only once: 11090447 (0.3101)
+weighted_by_req: obj_size_mean 1315, req_size_mean 1315, key_size_mean 13, value_size_mean 1302
+weighted_by_obj: obj_size_mean 1815, req_size_mean 1815, key_size_mean 19, value_size_mean 1796
+frequency mean: 14.80
+time span: 172800 (2.00 day)
+op: get:0.9603, set:0.0397
+ttl: 1 ttls used, 60s:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/safety_label_store_cache.sbin
+number of requests: 1569397206
+number of uniq obj/blocks: 33510982
+cold miss ratio: 0.0214
+top N popular (obj, num of requests): 
+[(429, 6539783),
+ (18662900, 6208011),
+ (450, 5824557),
+ (28300677, 5633693),
+ (17401470, 5269572),
+ (39903686, 4585252),
+ (16548069, 3711537),
+ (34812021, 3225050)]
+number of obj/block accessed only once: 805487 (0.0240)
+weighted_by_req: obj_size_mean 91, req_size_mean 91, key_size_mean 22, value_size_mean 69
+weighted_by_obj: obj_size_mean 100, req_size_mean 100, key_size_mean 23, value_size_mean 78
+frequency mean: 46.83
+time span: 172800 (2.00 day)
+op: get:0.9307, add:0.0417, gets:0.0147, cas:0.0128
+ttl: 1 ttls used, 30d:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/search_roots_cache.sbin
+number of requests: 716853888
+number of uniq obj/blocks: 188914762
+cold miss ratio: 0.2635
+top N popular (obj, num of requests): 
+[(259672546, 2865349),
+ (133584651, 1127106),
+ (264829342, 1029302),
+ (61999605, 755099),
+ (969, 585599),
+ (131293721, 536544),
+ (244204118, 521702),
+ (1496, 470776)]
+number of obj/block accessed only once: 28119063 (0.1488)
+weighted_by_req: obj_size_mean 6371, req_size_mean 6371, key_size_mean 42, value_size_mean 6328
+weighted_by_obj: obj_size_mean 20206, req_size_mean 20206, key_size_mean 72, value_size_mean 20134
+frequency mean: 3.79
+time span: 172800 (2.00 day)
+op: set:0.3701, get:0.6299
+ttl: 4 ttls used, 20s:0.9087, 300s:0.0648, 2h:0.0158, 600s:0.0108
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/selection_from_bidder_cache.sbin
+number of requests: 436293856
+number of uniq obj/blocks: 411816777
+cold miss ratio: 0.9439
+top N popular (obj, num of requests): 
+[(228047856, 2),
+ (228047868, 2),
+ (228047871, 2),
+ (228047892, 2),
+ (228047911, 2),
+ (228047912, 2),
+ (228047950, 2),
+ (228047988, 2)]
+number of obj/block accessed only once: 387339698 (0.9406)
+weighted_by_req: obj_size_mean 226, req_size_mean 226, key_size_mean 41, value_size_mean 185
+weighted_by_obj: obj_size_mean 226, req_size_mean 226, key_size_mean 41, value_size_mean 185
+frequency mean: 1.06
+time span: 172800 (2.00 day)
+op: set:0.9438, get:0.0562
+ttl: 5 ttls used, 60s:0.9998
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/serving_from_bidder_cache.sbin
+number of requests: 436259857
+number of uniq obj/blocks: 411780613
+cold miss ratio: 0.9439
+top N popular (obj, num of requests): 
+[(221561150, 2),
+ (221561170, 2),
+ (221561171, 2),
+ (221561175, 2),
+ (221561185, 2),
+ (221561223, 2),
+ (221561227, 2),
+ (221561246, 2)]
+number of obj/block accessed only once: 387301369 (0.9406)
+weighted_by_req: obj_size_mean 121, req_size_mean 121, key_size_mean 41, value_size_mean 80
+weighted_by_obj: obj_size_mean 121, req_size_mean 121, key_size_mean 41, value_size_mean 80
+frequency mean: 1.06
+time span: 172800 (2.00 day)
+op: set:0.9438, get:0.0562
+ttl: 4 ttls used, 60s:0.9998
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/simclusters_core_cache.sbin
+number of requests: 1081812213
+number of uniq obj/blocks: 91725539
+cold miss ratio: 0.0848
+top N popular (obj, num of requests): 
+[(592, 299247),
+ (33, 296509),
+ (784, 295756),
+ (1666, 295735),
+ (785, 295678),
+ (2279, 295204),
+ (3383, 294545),
+ (3102, 294494)]
+number of obj/block accessed only once: 94827 (0.0010)
+weighted_by_req: obj_size_mean 1893, req_size_mean 1893, key_size_mean 40, value_size_mean 1853
+weighted_by_obj: obj_size_mean 199, req_size_mean 199, key_size_mean 44, value_size_mean 155
+frequency mean: 11.79
+time span: 172800 (2.00 day)
+op: set:0.4967, get:0.5033
+ttl: 3 ttls used, 8h:0.9490, 1d:0.0508
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/simclusters_core_esc_cache.sbin
+number of requests: 894651422
+number of uniq obj/blocks: 76022145
+cold miss ratio: 0.0850
+top N popular (obj, num of requests): 
+[(726, 286519),
+ (1356, 283180),
+ (2874, 280249),
+ (2875, 280220),
+ (1638, 275598),
+ (2349, 274568),
+ (2534, 274491),
+ (1882, 273434)]
+number of obj/block accessed only once: 810 (0.0000)
+weighted_by_req: obj_size_mean 1893, req_size_mean 1893, key_size_mean 40, value_size_mean 1853
+weighted_by_obj: obj_size_mean 215, req_size_mean 215, key_size_mean 44, value_size_mean 171
+frequency mean: 11.77
+time span: 172800 (2.00 day)
+op: get:0.5030, set:0.4970
+ttl: 3 ttls used, 8h:0.9499, 1d:0.0498
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/simclusters_strato_read_through_cache.sbin
+number of requests: 1182082527
+number of uniq obj/blocks: 5141339
+cold miss ratio: 0.0043
+top N popular (obj, num of requests): 
+[(4455821, 72495666),
+ (3662158, 35786413),
+ (5535481, 29802168),
+ (5013195, 12974464),
+ (1665810, 10425679),
+ (2037783, 7615970),
+ (1502788, 6688199),
+ (2779926, 5364294)]
+number of obj/block accessed only once: 2513 (0.0005)
+weighted_by_req: obj_size_mean 2884, req_size_mean 2884, key_size_mean 35, value_size_mean 2848
+weighted_by_obj: obj_size_mean 4743, req_size_mean 4743, key_size_mean 40, value_size_mean 4703
+frequency mean: 229.92
+time span: 172800 (2.00 day)
+op: get:0.9567, add:0.0427, gets:0.0006, cas:0.0000
+ttl: 14 ttls used, 600s:0.8184, 300s:0.1615, 6h:0.0197
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/simclusters_v2_entity_cluster_scores_cache.sbin
+number of requests: 2511872824
+number of uniq obj/blocks: 136479196
+cold miss ratio: 0.0543
+top N popular (obj, num of requests): 
+[(86188891, 181650),
+ (11943, 178310),
+ (60180694, 151654),
+ (61030091, 149682),
+ (13055, 146426),
+ (17691, 144664),
+ (1012, 144547),
+ (17700, 141874)]
+number of obj/block accessed only once: 570 (0.0000)
+weighted_by_req: obj_size_mean 2095, req_size_mean 2095, key_size_mean 41, value_size_mean 2053
+weighted_by_obj: obj_size_mean 348, req_size_mean 348, key_size_mean 44, value_size_mean 304
+frequency mean: 18.40
+time span: 172800 (2.00 day)
+op: set:0.4974, get:0.5026
+ttl: 1 ttls used, 8h:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/strato_negative_result_cache.sbin
+number of requests: 1626011759
+number of uniq obj/blocks: 26870404
+cold miss ratio: 0.0165
+top N popular (obj, num of requests): 
+[(344228, 11693326),
+ (19031207, 9634178),
+ (18455558, 8306950),
+ (985, 7927783),
+ (137, 7813273),
+ (56, 7390946),
+ (17863984, 6527761),
+ (27165255, 6407572)]
+number of obj/block accessed only once: 5437680 (0.2024)
+weighted_by_req: obj_size_mean 45, req_size_mean 45, key_size_mean 23, value_size_mean 22
+weighted_by_obj: obj_size_mean 47, req_size_mean 47, key_size_mean 25, value_size_mean 22
+frequency mean: 60.51
+time span: 172800 (2.00 day)
+op: get:0.9816, add:0.0114, gets:0.0039, cas:0.0031
+ttl: 1 ttls used, 30d:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/talon_cache.sbin
+number of requests: 57577014
+number of uniq obj/blocks: 20193665
+cold miss ratio: 0.3507
+top N popular (obj, num of requests): 
+[(8628387, 115049),
+ (26035785, 114709),
+ (7840, 106807),
+ (15390603, 76340),
+ (18691902, 63473),
+ (28013651, 47899),
+ (27682140, 47590),
+ (1643, 45642)]
+number of obj/block accessed only once: 9842899 (0.4874)
+weighted_by_req: obj_size_mean 86, req_size_mean 86, key_size_mean 7, value_size_mean 79
+weighted_by_obj: obj_size_mean 130, req_size_mean 130, key_size_mean 10, value_size_mean 120
+frequency mean: 2.85
+time span: 172800 (2.00 day)
+op: add:0.1485, get:0.8515
+ttl: 1 ttls used, 15d:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/taxi_v3_prod_cache.sbin
+number of requests: 1808530944
+number of uniq obj/blocks: 347392368
+cold miss ratio: 0.1921
+top N popular (obj, num of requests): 
+[(297128254, 3836418),
+ (355715752, 2827051),
+ (158430, 2511224),
+ (6870139, 1852484),
+ (266958406, 1693709),
+ (144732, 1620959),
+ (202784922, 1329442),
+ (191917995, 1292347)]
+number of obj/block accessed only once: 419335 (0.0012)
+weighted_by_req: obj_size_mean 399, req_size_mean 399, key_size_mean 24, value_size_mean 375
+weighted_by_obj: obj_size_mean 972, req_size_mean 972, key_size_mean 44, value_size_mean 928
+frequency mean: 5.21
+time span: 172800 (2.00 day)
+op: set:0.3169, get:0.6831
+ttl: 3 ttls used, 12h:0.5824, 1h:0.4142
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/timelines_content_features_cache.sbin
+number of requests: 1648184438
+number of uniq obj/blocks: 1965337
+cold miss ratio: 0.0012
+top N popular (obj, num of requests): 
+[(1571151, 19090167),
+ (689771, 11131907),
+ (1943165, 11130205),
+ (973817, 10124410),
+ (1121590, 8999333),
+ (1686691, 7712672),
+ (2415751, 7134213),
+ (2075410, 6970568)]
+number of obj/block accessed only once: 84146 (0.0428)
+weighted_by_req: obj_size_mean 420, req_size_mean 420, key_size_mean 44, value_size_mean 376
+weighted_by_obj: obj_size_mean 311, req_size_mean 311, key_size_mean 44, value_size_mean 267
+frequency mean: 838.63
+time span: 172800 (2.00 day)
+op: get:0.9990, set:0.0010
+ttl: 1 ttls used, 2d:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/timelines_follow_socialproof_cache.sbin
+number of requests: 318718236
+number of uniq obj/blocks: 90513344
+cold miss ratio: 0.2840
+top N popular (obj, num of requests): 
+[(711360, 4082),
+ (40017, 3423),
+ (4934155, 2419),
+ (16703730, 1986),
+ (98174, 1806),
+ (30908545, 1399),
+ (108265706, 1383),
+ (8489, 1303)]
+number of obj/block accessed only once: 40080847 (0.4428)
+weighted_by_req: obj_size_mean 79, req_size_mean 79, key_size_mean 38, value_size_mean 41
+weighted_by_obj: obj_size_mean 114, req_size_mean 114, key_size_mean 44, value_size_mean 70
+frequency mean: 3.52
+time span: 172800 (2.00 day)
+op: set:0.3496, get:0.6504
+ttl: 2 ttls used, 1d:0.9994
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/timelines_impressionstore_cache.sbin
+number of requests: 216677416
+number of uniq obj/blocks: 1405126
+cold miss ratio: 0.0065
+top N popular (obj, num of requests): 
+[(26202, 28335),
+ (25655, 24446),
+ (10154, 18885),
+ (25325, 18724),
+ (873357, 18466),
+ (229930, 18199),
+ (5174, 18139),
+ (57807, 17788)]
+number of obj/block accessed only once: 12411 (0.0088)
+weighted_by_req: obj_size_mean 22711, req_size_mean 22711, key_size_mean 41, value_size_mean 22670
+weighted_by_obj: obj_size_mean 10702, req_size_mean 10702, key_size_mean 44, value_size_mean 10658
+frequency mean: 154.20
+time span: 172800 (2.00 day)
+op: set:0.4281, get:0.5719
+ttl: 2 ttls used, 1d:0.9893, 24h:0.0107
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/timelines_ranked_tweet_cache.sbin
+number of requests: 42050701
+number of uniq obj/blocks: 1901230
+cold miss ratio: 0.0452
+top N popular (obj, num of requests): 
+[(53944, 2885),
+ (818509, 2176),
+ (49924, 1974),
+ (86643, 1870),
+ (1297707, 1710),
+ (18617, 1623),
+ (9051, 1574),
+ (1090038, 1559)]
+number of obj/block accessed only once: 149421 (0.0786)
+weighted_by_req: obj_size_mean 52477, req_size_mean 52477, key_size_mean 14, value_size_mean 52463
+weighted_by_obj: obj_size_mean 67503, req_size_mean 67503, key_size_mean 18, value_size_mean 67485
+frequency mean: 22.12
+time span: 172800 (2.00 day)
+op: get:0.5235, set:0.4765
+ttl: 12 ttls used, 900s:0.7301, 1200s:0.2411, 1199s:0.0253
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/timelines_real_time_aggregates_cache.sbin
+number of requests: 1796712181
+number of uniq obj/blocks: 2205122
+cold miss ratio: 0.0012
+top N popular (obj, num of requests): 
+[(567, 43086825),
+ (16, 30997443),
+ (69651, 10859343),
+ (1484120, 10385899),
+ (1112, 8868690),
+ (21157, 8751963),
+ (47, 8528155),
+ (3804, 7958393)]
+number of obj/block accessed only once: 124611 (0.0565)
+weighted_by_req: obj_size_mean 382, req_size_mean 382, key_size_mean 43, value_size_mean 339
+weighted_by_obj: obj_size_mean 265, req_size_mean 265, key_size_mean 44, value_size_mean 221
+frequency mean: 814.79
+time span: 172800 (2.00 day)
+op: get:0.9007, set:0.0993
+ttl: 1 ttls used, 2d:1.0000
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/tweetypie_cache.sbin
+number of requests: 4190244605
+number of uniq obj/blocks: 128554550
+cold miss ratio: 0.0307
+top N popular (obj, num of requests): 
+[(64095809, 28420423),
+ (126494887, 25388195),
+ (99876079, 14850391),
+ (70988215, 14680830),
+ (70156845, 14428916),
+ (123372173, 13523977),
+ (339, 12166803),
+ (120016652, 10311991)]
+number of obj/block accessed only once: 24882076 (0.1936)
+weighted_by_req: obj_size_mean 249, req_size_mean 249, key_size_mean 22, value_size_mean 226
+weighted_by_obj: obj_size_mean 293, req_size_mean 293, key_size_mean 20, value_size_mean 273
+frequency mean: 32.60
+time span: 172800 (2.00 day)
+op: get:0.9113, add:0.0387, gets:0.0232, cas:0.0206, delete:0.0060, set:0.0002
+ttl: 8 ttls used, 1d:0.6524, 14d:0.2657, 12h:0.0740
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/user_activity_cache.sbin
+number of requests: 103398655
+number of uniq obj/blocks: 3744872
+cold miss ratio: 0.0362
+top N popular (obj, num of requests): 
+[(1773532, 650737),
+ (228, 578869),
+ (3710136, 392313),
+ (6489948, 376733),
+ (3188012, 355309),
+ (270, 317263),
+ (4175624, 293330),
+ (3376959, 292187)]
+number of obj/block accessed only once: 493970 (0.1319)
+weighted_by_req: obj_size_mean 7074, req_size_mean 7074, key_size_mean 28, value_size_mean 7047
+weighted_by_obj: obj_size_mean 9249, req_size_mean 9249, key_size_mean 36, value_size_mean 9213
+frequency mean: 27.61
+time span: 75086 (0.87 day)
+op: get:0.8864, set:0.0264, prepend:0.0871, delete:0.0000
+ttl: 2 ttls used, 30d:0.6562, 21d:0.3438
+################################################################################################
+dat: /user/junchengy/twemLogFull/bin/twoDay/wtf_req_cache.sbin
+number of requests: 7448668690
+number of uniq obj/blocks: 45527110
+cold miss ratio: 0.0061
+top N popular (obj, num of requests): 
+[(24108, 693237),
+ (1464, 692989),
+ (3028, 692777),
+ (3172, 687075),
+ (4170, 686120),
+ (7449, 685775),
+ (7781, 684666),
+ (908, 684531)]
+number of obj/block accessed only once: 213652 (0.0047)
+weighted_by_req: obj_size_mean 336, req_size_mean 336, key_size_mean 19, value_size_mean 318
+weighted_by_obj: obj_size_mean 265, req_size_mean 265, key_size_mean 19, value_size_mean 246
+frequency mean: 163.61
+time span: 172800 (2.00 day)
+op: get:0.9680, set:0.0320
+ttl: 10 ttls used, 3.3h:0.1430, 3.5h:0.1302, 3.6h:0.1247, 3.7h:0.1240, 3.9h:0.1179, 3.8h:0.1161, 3.4h:0.1156, 4h:0.0645, 3.2h:0.0607
+################################################################################################

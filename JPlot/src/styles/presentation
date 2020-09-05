@@ -1,0 +1,24 @@
+
+
+# axes.titlesize : 24
+axes.labelsize : 18
+lines.linewidth : 2
+legend.fontsize: 15
+legend.handlelength : 2
+
+# xtick.labelsize : 16
+# ytick.labelsize : 16
+
+
+font.size:10.0
+
+axes.facecolor: f0f0f0
+
+
+savefig.edgecolor: f0f0f0
+savefig.facecolor: f0f0f0
+savefig.format : png
+
+
+figure.figsize   : 6.4, 4.8
+figure.dpi : 300
