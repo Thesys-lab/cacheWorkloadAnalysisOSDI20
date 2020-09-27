@@ -9,6 +9,8 @@ from collections import defaultdict, deque
 import json
 import pickle
 import logging
+import numpy as np 
+
 
 sys.path.append("./")
 sys.path.append("../")
@@ -36,11 +38,11 @@ try:
 
   JPlot.set_auto_open(False)
   JPlot.set_plot_style("presentation-onecol")
-  from matplotlib.ticker import MaxNLocator
 except Exception as e:
   print(e)
 
-
+from matplotlib.ticker import MaxNLocator
+import matplotlib.ticker as ticker
 
 
 
@@ -82,6 +84,17 @@ def load_metadata(metadata_name):
   else:
     raise RuntimeError("unknown suffix in metadata name {}".format(metadata_name))
 
+def convert_size_to_str(sz, pos=None):
+  if sz>TiB:
+    return "{:.0f} TiB".format(sz/TiB)
+  elif sz>GiB: 
+    return "{:.0f} GiB".format(sz/GiB)
+  elif sz>MiB: 
+    return "{:.0f} MiB".format(sz/MiB)
+  elif sz>KiB: 
+    return "{:.0f} KiB".format(sz/KiB)
+  else:
+    return "{} B".format(sz)
 
 
 
