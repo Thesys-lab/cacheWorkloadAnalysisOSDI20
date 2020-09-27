@@ -49,7 +49,7 @@ def run_eviction_algo(trace_name, max_mem_GB, base_path, num_of_threads=-1):
   """ run the available cache replace algorithms """
   # xticks = [100*MB, 200*MB, 500*MB, 1000*MB, 2*GB, 3*GB, 4*GB, 5*GB, 8*GB, 10*GB, 12*GB, 16*GB]
 
-  cache_sizes = list(np.logspace(26, np.log2(max_mem_GB*GB), num=128, base=2.0).astype(int))
+  cache_sizes = list(np.logspace(28, np.log2(max_mem_GB*GB), num=128, base=2.0).astype(int))
   figname = "fig/{}_MRC".format(trace_name)
 
   warmup_reader_params = {"trace_path": "{}/{}_cache.0.warmup.sbin".format(base_path, trace_name), "trace_type": "t", "obj_id_type": "l", }
@@ -60,9 +60,9 @@ def run_eviction_algo(trace_name, max_mem_GB, base_path, num_of_threads=-1):
   else:
     logging.info("warmup reader {} requests".format(os.path.getsize(warmup_reader_params["trace_path"])//20))
 
-  ttl = {"gizmoduck_lru": 12*3600, "timelines_real_time_aggregates": 48*3600, "livepipeline": 3600, "simclusters_v2_entity_cluster_scores": 8*3600, "media_metadata":967400, "timelines_ranked_tweet": 980, "graph_feature_service": 8*3600, "geouser": 3600, "simclusters_core": 24*3600, "simclusters_core_esc": 24*3600, "limiter_feature_med": 24*3600, "expandodo": 24*3600, "pinkfloyd": 2*3600, "blender_adaptive": 24*3600, "taxi_v3_prod": 24*3600 , "timelines_impressionstore": 24*3600, "timelines_follow_socialproof": 24*3600, "content_recommender_core_svcs": 2*3600, "ibis_api": 432000, "ibis_dedup": 3*3600, "search_roots": 2*3600, "observability": 3600, "search_roots": 1200, "wtf_req": 4*3600, "control_tower_probe": 1500}
+  ttl = {"gizmoduck_lru": 12*3600, "timelines_real_time_aggregates": 48*3600, "livepipeline": 3600, "simclusters_v2_entity_cluster_scores": 8*3600, "strato_negative_result":2592000, "media_metadata":967400, "timelines_ranked_tweet": 980, "graph_feature_service": 8*3600, "geouser": 3600, "simclusters_core": 24*3600, "simclusters_core_esc": 24*3600, "limiter_feature_med": 24*3600, "expandodo": 24*3600, "pinkfloyd": 2*3600, "blender_adaptive": 24*3600, "taxi_v3_prod": 24*3600 , "timelines_impressionstore": 24*3600, "timelines_follow_socialproof": 24*3600, "content_recommender_core_svcs": 2*3600, "ibis_api": 432000, "ibis_dedup": 3*3600, "search_roots": 2*3600, "observability": 3600, "search_roots": 1200, "wtf_req": 4*3600, "control_tower_probe": 1500}
   cache_params = {"default_ttl": ttl[trace_name]} 
-  cache_params = {"default_ttl": 0} 
+  # cache_params = {"default_ttl": 0} 
   _plot_eviction_algo(cache_sizes, cache_params, warmup_reader_params, eval_reader_params, num_of_threads)
 
   plt.xscale("log")
