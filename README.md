@@ -2,14 +2,13 @@
 
 ## Artifact Evaluation 
 ### Note
-We used one-week trace in our analysis, which requires a lot of computation resources and long time, so for artifact evaluation, we provided two-day traces, if you are interested and have enough computation capability, we can provide full trace. 
-Do note that, even the two-day traces require a large amount of computation, feel free to do the analysis using a subset from each trace. 
+We used both two-day and one-week traces in our analysis, however the one-week traces require too much computation resources and long time (to finish within the artifact evaluation period). So for artifact evaluation, we suggest using only the two-day traces in most cases, if you are interested and have enough computation capability, we can provide one-week traces. 
+Do note that even the two-day traces require a large amount of computation, feel free to do the analysis using a subset of each trace. 
 
 
 ### Repo explanation 
 * cacheTraceAnalysis folder contains all the scripts we use to compute the analysis and generate the figures.  
 * JPlot is an internal plotting library 
-* libCacheSim is the tool we use to run simulations 
 * data folder contains some precomputed results 
 
 ### Data 
@@ -31,7 +30,10 @@ You do not need to write a reader for the trace, the scripts in the repo contain
 
 ### Trace Analysis  
 Several figures are based on the statistics of the traces, to calculate the statistics for a trace, run 
-`python3 evalTrace.py --trace /path/to/trace --type=trace_stat`, note that each trace stat can take hours to days to run. In the case of not having enough computation capacity, we have provided computed stat under `data/`. 
+
+`python3 evalTrace.py --trace /path/to/trace --type=trace_stat`, 
+
+note that each trace stat can take hours to days to run. In the case of not having enough computation capacity, we have provided computed stat under `data/`. 
 
 
 #### Fig 2 
