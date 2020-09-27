@@ -80,8 +80,8 @@ if _DEBUG:
     print("{}".format(extensions))
 
 
-BASE_PATH = "libMimircache/libMimircache/libMimircache/"
-PyBinding_PATH = "libMimircache/pyBindings/"
+BASE_PATH = "libCacheSim/libMimircache/libMimircache/"
+PyBinding_PATH = "libCacheSim/pyBindings/"
 ALL_HEADERS = [BASE_PATH, BASE_PATH + "/include", BASE_PATH + "/include/mimircache",
                BASE_PATH + "/cache/include", BASE_PATH + "/cacheAlgo/include",
                BASE_PATH + "/traceReader/include", BASE_PATH + "/utils/include", 
