@@ -37,7 +37,7 @@ try:
   from JPlot import plotTools as plotTools
 
   JPlot.set_auto_open(False)
-  JPlot.set_plot_style("presentation-onecol")
+  JPlot.set_plot_style("publication-onecolLargeFont")
 except Exception as e:
   print(e)
 

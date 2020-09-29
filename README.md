@@ -59,7 +59,7 @@ the two traces used are xx, to plot the figures, run
 Fig 7 is calculated and plot using `popularity.py`, which given a trace plots popularity-rank plot and output alpha and R2, which are used to plot Fig. 8, and Fig. 11. 
 
 #### Fig 10 
-Fig 10 are generated using 7 day traces, the four traces are onboarding_task_service_cache, timelines_content_features_cache, timelines_ranked_tweet_cache, ibis_api_cache. 
+Fig 10 are generated using 7 day traces, the four traces are `onboarding_task_service_cache`, `timelines_content_features_cache`, `timelines_ranked_tweet_cache`, `ibis_api_cache`. 
 
 To generate the figure run 
 `python3 plot/sizeDistHeatmap.py --trace /path/to/trace`

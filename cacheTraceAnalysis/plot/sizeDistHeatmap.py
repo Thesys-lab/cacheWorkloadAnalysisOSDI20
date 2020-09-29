@@ -62,7 +62,7 @@ def cal_size_dist_over_time(trace_reader, window):
 def draw_heatmap(plot_array, filename="heatmap.png", **kwargs):
   imshow_kwargs = kwargs.get("imshow_kwargs", {})
   if "cmap" not in imshow_kwargs:
-    imshow_kwargs["cmap"] = plt.cm.jet
+    imshow_kwargs["cmap"] = plt.cm.viridis
   else:
     imshow_kwargs["cmap"] = plt.get_cmap(imshow_kwargs["cmap"])
   imshow_kwargs["cmap"].set_bad(color='white', alpha=1.)
@@ -71,6 +71,7 @@ def draw_heatmap(plot_array, filename="heatmap.png", **kwargs):
            aspect='auto', **imshow_kwargs)
 
   cb = plt.colorbar(img)
+  cb.ax.tick_params(labelsize=20) 
 
 
 def cal_size_dist_heatmap(trace_reader, window, log_base=1.2):
@@ -130,20 +131,22 @@ def plot_size_dist_heatmap(trace_reader, window=300, log_base=1.2):
 
   # plt.update_plot_style()
   draw_heatmap(plot_data_req) #, imshow_kwargs={"norm": colors.LogNorm()})
-  plt.xlabel("Time (hour)")
-  plt.ylabel("Request size (byte)")
+  plt.xlabel("Time (hour)", fontsize=20)
+  plt.ylabel("Request size (byte)", fontsize=20)
+  plt.yticks(fontsize=20)
   plt.gca().xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: '{:.0f}'.format(x * window/3600)))
   plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: '{:.0f}'.format(log_base ** (x+1+skipped_idx_req))))
+  plt.xticks([i*3600/window for i in [0, 24, 48, 72, 96, 120, 144]], fontsize=20)
   plt.savefig(figname+"_req", no_save_plot_data=True)
   plt.clf()
 
-  draw_heatmap(plot_data_obj) #, imshow_kwargs={"norm": colors.LogNorm()})
-  plt.xlabel("Time (hour)")
-  plt.ylabel("Request size (byte)")
-  plt.gca().xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: '{:.0f}'.format(x * window/3600)))
-  plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: '{:.0f}'.format(log_base ** (x+1+skipped_idx_req))))
-  plt.savefig(figname+"_obj", no_save_plot_data=True)
-  plt.clf()
+  # draw_heatmap(plot_data_obj) #, imshow_kwargs={"norm": colors.LogNorm()})
+  # plt.xlabel("Time (hour)")
+  # plt.ylabel("Object size (byte)")
+  # plt.gca().xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: '{:.0f}'.format(x * window/3600)))
+  # plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: '{:.0f}'.format(log_base ** (x+1+skipped_idx_req))))
+  # plt.savefig(figname+"_obj", no_save_plot_data=True)
+  # plt.clf()
 
 
 if __name__ == "__main__":
