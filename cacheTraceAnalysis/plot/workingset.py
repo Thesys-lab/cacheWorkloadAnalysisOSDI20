@@ -118,6 +118,7 @@ if __name__ == "__main__":
   import argparse 
   ap = argparse.ArgumentParser()
   ap.add_argument("--trace", type=str, help="trace path")
+  ap.add_argument("--window", type=int, default=300, help="window size")
   p = ap.parse_args()
 
   reader = TwrShortBinTraceReader(p.trace)
