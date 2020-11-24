@@ -3,10 +3,8 @@
 ### Description 
 This is the analysis code used for the following paper. 
 
-```
 [Juncheng Yang, Yao Yue, Rashmi Vinayak, A large scale analysis of hundreds of in-memory cache clusters at Twitter. 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20), 2020.](https://www.usenix.org/conference/osdi20/presentation/yang) 
 
-```
 
 
 ### Repo explanation 
