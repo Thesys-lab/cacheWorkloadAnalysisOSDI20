@@ -1,10 +1,11 @@
 # In Memory Caching Workload Analysis OSDI'20 
 
-## Artifact Evaluation 
-### Note
-We used both two-day and one-week traces in our analysis, however the one-week traces require too much computation resources and long time (to finish within the artifact evaluation period). So for artifact evaluation, we suggest using only the two-day traces in most cases, if you are interested and have enough computation capability, we can provide one-week traces. 
-Do note that even the two-day traces require a large amount of computation, feel free to do the analysis using a subset of each trace. 
+### Description 
+This is the analysis code used for the following paper. 
 
+```
+Juncheng Yang, Yao Yue, Rashmi Vinayak, A large scale analysis of hundreds of in-memory cache clusters at Twitter. 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20), 2020.
+``` 
 
 ### Repo explanation 
 * cacheTraceAnalysis folder contains all the scripts we use to compute the analysis and generate the figures.  
